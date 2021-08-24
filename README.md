@@ -15,7 +15,9 @@ Dataset: CIFAR10
 
 To run:
 
-`train_multire.py -dd dataset_directory -tn test_name` 
+`
+train_multire.py -dd dataset_directory -tn test_name
+` 
 
 **Tree**
 
@@ -27,4 +29,6 @@ Dataset: CIFAR10
 
 To run:
 
-`train_multire_tree.py -dd dataset_directory -tn test_name` 
+`
+train_multire_tree.py -dd dataset_directory -tn test_name
+` 
