@@ -24,7 +24,7 @@ parser.add_argument('--dataset', '-d', default='CIFAR10', type=str, help='datase
 parser.add_argument('--channels', '-c', type=str, default='16', help='number of channels for 1st resolution')
 parser.add_argument('--leng', '-l', type=int, default=6, help='depth of network')
 parser.add_argument('--batchsize', '-b', type=int, default=200, help='batch size')
-parser.add_argument('--test_name', '-tn', type=int, default=666, help='test name for saving model')
+parser.add_argument('--test_name', '-tn', type=int, default=100, help='test name for saving model')
 parser.add_argument('--seed', type=int, default=0, help='random seed')
 parser.add_argument('--epochs', '-e', type=int, default=100, help='epochs to train')
 parser.add_argument('--validation_percent', '-vp', type=float, default=0.5, help='percent of train data for validation')
