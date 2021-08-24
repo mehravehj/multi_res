@@ -15,9 +15,9 @@ from model import multires_model
 
 
 
-from thop import profile
-from thop import clever_format
-from ptflops import get_model_complexity_info
+#from thop import profile
+#from thop import clever_format
+#from ptflops import get_model_complexity_info
 
 parser = argparse.ArgumentParser(description='PyTorch Mutiresolution Training')
 parser.add_argument('--dataset', '-d', default='CIFAR10', type=str, help='dataset name')
