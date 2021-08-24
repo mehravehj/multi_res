@@ -8,11 +8,12 @@ Python >= 3.5.5, PyTorch == 0.3.1, torchvision == 0.2.0
 
 Code for multi resolution network 
 
-Based on training alpha mixing weights using gradient descent (see DARTS)
+Based on training alpha (mixing weights) using gradient descent (see DARTS)
 
 Blocks: convolution (conv-relu-BN)
 
-Double number of outout channels when downsampling
+Double the number of outout channels when downsampling
+Zero padding along channel dimension to match
 
 Dataset: CIFAR10
 
