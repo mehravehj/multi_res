@@ -1,9 +1,7 @@
 # multi_res
-##Requirements
+## Requirements
 `
-
 Python >= 3.5.5, PyTorch == 0.3.1, torchvision == 0.2.0
-
 ` 
 
 ## Alpha
@@ -21,9 +19,7 @@ Dataset: CIFAR10
 To run:
 
 `
-
 train_multire.py -dd dataset_directory -tn test_name
-
 ` 
 ## Tree
 
@@ -36,7 +32,5 @@ Dataset: CIFAR10
 To run:
 
 `
-
 train_multire_tree.py -dd dataset_directory -tn test_name
-
 ` 
