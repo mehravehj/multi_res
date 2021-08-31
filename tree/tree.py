@@ -90,7 +90,7 @@ class Quaternary_Tree:
 		self.tree_Root = None # this is the input image
 		self.config = None
 
-	def initTree(self, tree_Config):
+	def init_Tree(self, tree_Config):
 		self.config = tree_Config
 
 		if self.config == None:
